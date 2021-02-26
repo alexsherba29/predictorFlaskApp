@@ -1,4 +1,12 @@
 # dsp-ip-homework1
+
+## Installation
+```bash
+pip install -r requirements.txt 
+```
+
+## Usage
+
 1) data acquisition using Bing API.
    ```python
    python3 search-bing-api.py --query "dog" --output dataset/dog
