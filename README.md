@@ -21,13 +21,12 @@ pip install -r requirements.txt
    
 3) Create a model 
    ```python
-   
+   python3 createModel.py
    ```
 
 4) Create and Inference server using Flask
    ```python
-   
-   
+   python3 DeploymentUsingFlask.py
    ```
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
