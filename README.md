@@ -6,8 +6,9 @@
    ```
 
 2) Automated data cleaning using Rekognition
-   a) ```python3 upload_dir.py````
-   b) ```python3 checkAndDownload.py```
+   ```python3 upload_dir.py
+      python3 checkAndDownload.py
+      ```
    
 3) Create a model 
 
