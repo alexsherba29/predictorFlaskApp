@@ -29,3 +29,5 @@ pip install -r requirements.txt
    
    
    ```
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
