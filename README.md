@@ -17,7 +17,7 @@ pip install -r requirements.txt
    ```python
    # change the flag in line 127 to True
    upload_file_switch = True
-   python3 DataHandler.py
+   python3 dataHandler.py
    ```
 3) download the data after rekognition
    ```python
