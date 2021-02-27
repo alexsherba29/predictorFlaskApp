@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 2) Automated data cleaning using Rekognition
    ```python
-   python3 upload_dir.py
+   python3 upload_file.py
    python3 checkAndDownload.py
    ```
    
