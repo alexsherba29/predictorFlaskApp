@@ -6,7 +6,7 @@ import numpy as np
 import cv2
 
 
-food_classes = ['cat', 'dog']
+classes = ['cat', 'dog']
 
 
 app = Flask(__name__, static_url_path='/static')
@@ -71,7 +71,7 @@ def showing_image(image_name):
         predictions = alex_prediction_model(np_image)
         predicted_class_idx = np.argmax(predictions)  # [0.1, 0.5, 0.3] --> 1
         probability = np.max(predictions)
-        predicted_class = food_classes[predicted_class_idx]
+        predicted_class = classes[predicted_class_idx]
 
         return render_template("prediction_result.html", image_name=image_name, predicted_class=predicted_class,
                                probability=probability)
