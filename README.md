@@ -1,5 +1,5 @@
 # dsp-ip-homework1
-
+# For computers that support with CUDA
 ## Installation
 ```bash
 pip install -r requirements.txt 
