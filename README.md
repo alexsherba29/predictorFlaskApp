@@ -1,11 +1,11 @@
 # dsp-ip-homework1
-# For computers that support with CUDA
-## Installation
+## For computers that support with CUDA
+### Installation
 ```bash
 pip install -r requirements.txt 
 ```
 
-## Usage
+### Usage
 
 1) data acquisition using Bing API
    ```python
@@ -36,5 +36,5 @@ pip install -r requirements.txt
    download_data_switch = False
    python3 predictor.py
    ```
-## License
+### License
 [MIT](https://choosealicense.com/licenses/mit/)
